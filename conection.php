@@ -1,6 +1,6 @@
 <?php
 //conexion a la base de datos
-$conexion = new mysqli('localhost','root','12345678','crud');
+$conexion = new mysqli('localhost','root','password','crud');
 
 //test de conexion
 if(mysqli_connect_error()){
